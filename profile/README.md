@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-GraphMe is a Slack app allowing to visualize metrics stored in Prometheus and Datadog directly from Slack.
+[GraphMe](https://graphme.app) is a Slack app allowing to visualize metrics stored in Prometheus and Datadog directly from Slack.
 
 **Reuse graphs in different contexts:** No more queries scattered in spreadsheets and docs. GraphMe is now the source of truth for your queries, and they can be parameterized for a better reusability.
 
