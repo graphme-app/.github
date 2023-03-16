@@ -1,14 +1,23 @@
 ## Hi there 👋
 
-[GraphMe](https://graphme.app) is a Slack app allowing to visualize metrics stored in Prometheus and Datadog directly from Slack.
+[GraphMe](https://graphme.app) is an application to query Grafana dashboards directly from Slack.
 
-**Reuse graphs in different contexts:** No more queries scattered in spreadsheets and docs. GraphMe is now the source of truth for your queries, and they can be parameterized for a better reusability.
+```
+/graph me service-health:requests
+```
 
-**Customize the appearance of graphs:** GraphMe comes with a large number of options to customize how graphs look like. 
+**Query dashboards directly from Slack:**
+Do you still take screenshots and upload them in Slack?
+GraphMe automates this process without leaving Slack.
 
-**Works with your time series database:** GraphMe does not replace your favorite time series database. Instead, it compliments it with a Slack integration allowing you to query for metrics right from your favorite collaboration tool.
+**Save and reuse common queries:**
+Do you commonly share the same dashboards?
+GraphMe allows to save common queries under an alias.
+
+**Parameterize your queries:**
+GraphMe allows you to use the full power of Grafana, but providing variables, a timezone, dimensions or a time range.
 
 ## Contribute
 
 We currently only host publicly source code for our website, allowing users to contribute to our documentation.
-We may publish parts of our application in the open in the future, depending on bandwidth and interest.
+We may publish parts of our application in the open in the future, depending on available bandwidth and interest.
